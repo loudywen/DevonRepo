@@ -11,6 +11,7 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.*;
 import java.util.Date;
+
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
@@ -26,8 +27,9 @@ import org.example.megaballs.Numbers;
 import org.example.numbers_hit.Count;
 import org.example.numbers_hit.MegaHits;
 import org.example.numbers_hit.NumberHits;
-import org.jsoup.*;
-import org.jsoup.nodes.*;
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 import org.paukov.combinatorics.Factory;
 import org.paukov.combinatorics.Generator;
@@ -47,7 +49,6 @@ import javax.naming.InitialContext;
 import javax.naming.NamingException;
 
 import java.sql.*;
-import java.sql.Connection;
 
 public class GrabDataFromWebsite {
 
