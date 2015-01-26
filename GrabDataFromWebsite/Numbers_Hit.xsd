@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/Numbers_Hit" xmlns:tns="http://www.example.org/Numbers_Hit" elementFormDefault="qualified">
+
+    <element name="Count" type="tns:Count"></element>
+    
+    <complexType name="Count">
+    	<sequence>
+    		<element name="Number_Hits" type="tns:Number_Hits"
+    			maxOccurs="unbounded" minOccurs="1">
+    		</element>
+    		<element name="Mega_Hits" type="tns:Mega_Hits" maxOccurs="unbounded" minOccurs="1"></element>
+    	</sequence>
+    </complexType>
+
+    <complexType name="Number_Hits">
+    	<sequence>
+    		<element name="Number" type="int" maxOccurs="1" minOccurs="0"></element>
+    		<element name="Hit" type="int" maxOccurs="1" minOccurs="0"></element>
+    	</sequence>
+    </complexType>
+
+    <complexType name="Mega_Hits">
+    	<sequence>
+    		<element name="Mega_Num" type="int" maxOccurs="1"
+    			minOccurs="0">
+    		</element>
+    		<element name="Mega_Hit" type="int" maxOccurs="1" minOccurs="0"></element>
+    	</sequence>
+    </complexType>
+</schema>
