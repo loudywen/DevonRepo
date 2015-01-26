@@ -77,8 +77,8 @@ public class GrabDataFromWebsite {
 		int count = 0;
 		String numText = "";
 		MegaBalls mbs = new MegaBalls();
-		NumberHits nhs = new NumberHits();
-		MegaHits mhs = new MegaHits();
+		
+		
 		Count c = new Count();
 		Document doc;
 		String readFileToString;
@@ -141,7 +141,7 @@ public class GrabDataFromWebsite {
 						mbs.getMegaBall().add(mb);
 
 						// Insert to database (MegaMillions table)
-						// InsertToMegamillions(dateText,numbers,megaText);
+						InsertToMegamillions(dateText,numbers,megaText);
 
 					}
 
@@ -164,6 +164,7 @@ public class GrabDataFromWebsite {
 					Iterator itr = set.iterator();
 				
 					while (itr.hasNext()) {
+						NumberHits nhs = new NumberHits();
 						Map.Entry m = (Map.Entry) itr.next();
 					
 						bw.append("Number: " + m.getKey() + " hit "
@@ -171,20 +172,23 @@ public class GrabDataFromWebsite {
 						
 						nhs.setNumber(Integer.parseInt((String) m.getKey()));
 						nhs.setHit((Integer)m.getValue());
+						
 						c.getNumberHits().add(nhs);
-						System.out.println(c.getNumberHits().get(c.getNumberHits().size()-1).getNumber());
+						//System.out.println(c.getNumberHits().get(c.getNumberHits().size()-1).getNumber()+" "+c.getNumberHits().get(c.getNumberHits().size()-1).getHit());
 					
 						if (((Integer) m.getValue() >= 2)
 								&& ((Integer) m.getValue() <= 4)) {
 							vector.add(Integer.parseInt((String) m.getKey()));
 						}
 					}
-
+					
+				
 					// print mega hashmap
 					System.out.println();
 					set = sortByValue(megaHm).entrySet();
 					itr = set.iterator();
 					while (itr.hasNext()) {
+						MegaHits mhs = new MegaHits();
 						Map.Entry m = (Map.Entry) itr.next();
 						System.out.println("Mega Number: " + m.getKey()
 								+ " hit " + m.getValue());
@@ -307,7 +311,7 @@ public class GrabDataFromWebsite {
 	private static void InsertToMegamillions(String date, Numbers numbers,
 			String Mega) throws ParseException {
 		String jdbcClassName = "com.ibm.db2.jcc.DB2Driver";
-		String url = "jdbc:db2://192.168.1.73:50000/TESTDB2";
+		String url = "jdbc:db2://192.168.2.132:50000/TESTDB2";
 		String user = "db2admin";
 		String password = "db2admin";
 		@SuppressWarnings("deprecation")
