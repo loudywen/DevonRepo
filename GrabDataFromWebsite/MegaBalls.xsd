@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/MegaBalls" xmlns:tns="http://www.example.org/MegaBalls" elementFormDefault="qualified">
+
+    <element name="MegaBalls" type="tns:MegaBalls"></element>
+    
+    <complexType name="MegaBalls">
+    	<sequence>
+    		<element name="MegaBall" type="tns:MegaBall"
+    			maxOccurs="unbounded" minOccurs="1">
+    		</element>
+    	</sequence>
+    </complexType>
+    <complexType name="Numbers">
+    	<sequence>
+    		<element name="Number" type="string" maxOccurs="unbounded" minOccurs="1"></element>
+    	</sequence>
+    </complexType>
+
+    <complexType name="MegaBall">
+    	<sequence>
+    		<element name="Date" type="string"></element>
+    		<element name="Numbers" type="tns:Numbers"></element>
+    		<element name="Mega" type="string"></element>
+    	</sequence>
+    </complexType>
+</schema>
