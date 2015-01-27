@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry excluding="src/|.apt_generated/" kind="src" path=""/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Devon/IBM/rationalsdp/workspace/GrabDataFromWebsite/jsoup-1.8.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Devon/Downloads/jaxb-ri-2.2.11.zip"/>
+	<classpathentry kind="lib" path="C:/Users/Devon/Desktop/special java jar/jsoup-1.8.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Devon/Desktop/Mircale Software/Java_J2EE/db2jcc.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/IBM/WebSphere/AppServer/runtimes/ejb3exceptions.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/IBM/WebSphere/AppServer/plugins/javassist.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/IBM/WebSphere/AppServer/plugins/javax.j2ee.compatibility.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/IBM/WebSphere/AppServer/plugins/javax.j2ee.connector.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/IBM/WebSphere/AppServer/plugins/javax.j2ee.deploy.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/IBM/WebSphere/AppServer/plugins/javax.j2ee.ejb.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/IBM/WebSphere/AppServer/plugins/javax.j2ee.el.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/IBM/WebSphere/AppServer/plugins/javax.j2ee.interceptor.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/IBM/WebSphere/AppServer/plugins/javax.j2ee.jacc.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/IBM/WebSphere/AppServer/plugins/javax.j2ee.jaspic.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/IBM/WebSphere/AppServer/plugins/javax.j2ee.jaxr.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/IBM/WebSphere/AppServer/plugins/javax.j2ee.jaxrpc.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/IBM/WebSphere/AppServer/plugins/javax.j2ee.jaxrs.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/IBM/WebSphere/AppServer/plugins/javax.j2ee.jcdi.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/IBM/WebSphere/AppServer/plugins/javax.j2ee.jms.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/IBM/WebSphere/AppServer/plugins/javax.j2ee.jsf.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/IBM/WebSphere/AppServer/plugins/javax.j2ee.jsp.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/IBM/WebSphere/AppServer/plugins/javax.j2ee.jstl.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/IBM/WebSphere/AppServer/plugins/javax.j2ee.jta.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/IBM/WebSphere/AppServer/plugins/javax.j2ee.management.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/IBM/WebSphere/AppServer/plugins/javax.j2ee.persistence.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/IBM/WebSphere/AppServer/plugins/javax.j2ee.servlet.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/IBM/WebSphere/AppServer/plugins/javax.j2ee.validation.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/IBM/WebSphere/AppServer/runtimes/com.ibm.jaxrs.thinclient_8.5.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/IBM/WebSphere/AppServer/runtimes/com.ibm.jaxws.thinclient_8.5.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/IBM/WebSphere/AppServer/runtimes/com.ibm.ws.admin.client_8.5.0.jar" sourcepath="C:/Program Files (x86)/IBM/WebSphere/AppServer/runtimes/com.ibm.ws.admin.client_8.5.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/IBM/WebSphere/AppServer/runtimes/com.ibm.ws.ejb.embeddableContainer_8.5.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/IBM/WebSphere/AppServer/runtimes/com.ibm.ws.ejb.embeddableContainer_nls_8.5.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/IBM/WebSphere/AppServer/runtimes/com.ibm.ws.ejb.portable_8.5.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/IBM/WebSphere/AppServer/runtimes/com.ibm.ws.ejb.thinclient_8.5.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/IBM/WebSphere/AppServer/runtimes/com.ibm.ws.jpa.thinclient_8.5.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/IBM/WebSphere/AppServer/runtimes/com.ibm.ws.messagingClient.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/IBM/WebSphere/AppServer/runtimes/com.ibm.ws.orb_8.5.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/IBM/WebSphere/AppServer/runtimes/com.ibm.ws.sib.client.thin.jms_8.5.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/IBM/WebSphere/AppServer/runtimes/com.ibm.ws.sib.client_ExpeditorDRE_8.5.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/IBM/WebSphere/AppServer/runtimes/com.ibm.ws.webservices.thinclient_8.5.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/IBM/WebSphere/AppServer/runtimes/com.ibm.xml.thinclient_8.5.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/IBM/WebSphere/AppServer/runtimes/sibc.nls.zip"/>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/com.ibm.ws.ast.st.runtime.runtimeTarget.v85/was.base.v85"/>
+	<classpathentry kind="lib" path="C:/Users/Devon/Desktop/Mircale Software/Java_J2EE/db2 driver/db2jcc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Devon/Desktop/special java jar/combinatoricslib-2.1.jar"/>
+	<classpathentry kind="src" path=".apt_generated">
+		<attributes>
+			<attribute name="optional" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
